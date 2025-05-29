@@ -1,0 +1,69 @@
+// rstn_start_estado
+0_1_0001 // resetn 0, start 1, estado IDLE (RESET)
+1_0_0001 // resetn 1, start 0, estado IDLE
+1_1_0010 // resetn 1, start 1, estado LIGAR_MAQUINA (INICIO CICLO)
+1_0_0011 // resetn 1, start 0, estado VERIFICAR_AGUA
+1_0_0100 // resetn 1, start 0, estado ENCHER_RESERVATORIO
+1_0_0011 // resetn 1, start 0, estado VERIFICAR_AGUA
+1_0_0101 // resetn 1, start 0, estado MOER_CAFE
+1_0_0110 // resetn 1, start 0, estado COLOCAR_NO_FILTRO
+1_0_0111 // resetn 1, start 0, estado PASSAR_AGITADOR
+1_0_1000 // resetn 1, start 0, estado TAMPEAR
+1_1_1001 // resetn 1, start 1, estado REALIZAR_EXTRACAO (FIM CICLO)
+1_0_0001 // resetn 1, start 0, estado IDLE
+0_0_0001 // resetn 0, start 0, estado IDLE (RESET)
+0_1_0001 // resetn 0, start 1, estado IDLE (RESET)
+1_1_0010 // resetn 1, start 1, estado LIGAR_MAQUINA (INICIO CICLO)
+1_1_0011 // resetn 1, start 1, estado VERIFICAR_AGUA
+1_1_0100 // resetn 1, start 1, estado ENCHER_RESERVATORIO
+1_1_0011 // resetn 1, start 1, estado VERIFICAR_AGUA
+1_1_0101 // resetn 1, start 1, estado MOER_CAFE
+0_1_0001 // resetn 0, start 1, estado IDLE (FIM CICLO) (RESET)
+1_1_0010 // resetn 1, start 1, estado LIGAR_MAQUINA (INICIO CICLO)
+1_1_0011 // resetn 1, start 1, estado VERIFICAR_AGUA
+1_1_0100 // resetn 1, start 1, estado ENCHER_RESERVATORIO
+1_1_0011 // resetn 1, start 1, estado VERIFICAR_AGUA
+1_1_0101 // resetn 1, start 1, estado MOER_CAFE
+1_0_0110 // resetn 1, start 0, estado COLOCAR_NO_FILTRO
+1_0_0111 // resetn 1, start 0, estado PASSAR_AGITADOR
+1_0_1000 // resetn 1, start 0, estado TAMPEAR
+1_1_1001 // resetn 1, start 1, estado REALIZAR_EXTRACAO (FIM CICLO)
+1_0_0001 // resetn 1, start 0, estado IDLE
+1_1_0010 // resetn 1, start 1, estado LIGAR_MAQUINA (INICIO CICLO)
+1_1_0011 // resetn 1, start 1, estado VERIFICAR_AGUA
+1_1_0101 // resetn 1, start 1, estado MOER_CAFE
+1_0_0110 // resetn 1, start 0, estado COLOCAR_NO_FILTRO
+1_0_0111 // resetn 1, start 0, estado PASSAR_AGITADOR
+1_0_1000 // resetn 1, start 0, estado TAMPEAR
+1_1_1001 // resetn 1, start 1, estado REALIZAR_EXTRACAO (FIM CICLO)
+1_1_0001 // resetn 1, start 1, estado IDLE
+1_1_0010 // resetn 1, start 1, estado LIGAR_MAQUINA (INICIO CICLO)
+1_1_0011 // resetn 1, start 1, estado VERIFICAR_AGUA
+0_1_0001 // resetn 0, start 1, estado IDLE (RESET)
+1_0_0001 // resetn 1, start 0, estado IDLE
+1_1_0010 // resetn 1, start 1, estado LIGAR_MAQUINA (NOVO CICLO)
+1_1_0011 // resetn 1, start 1, estado VERIFICAR_AGUA
+1_1_0100 // resetn 1, start 1, estado ENCHER_RESERVATORIO
+1_1_0011 // resetn 1, start 1, estado VERIFICAR_AGUA
+1_1_0101 // resetn 1, start 1, estado MOER_CAFE
+1_0_0110 // resetn 1, start 0, estado COLOCAR_NO_FILTRO
+1_0_0111 // resetn 1, start 0, estado PASSAR_AGITADOR
+1_0_1000 // resetn 1, start 0, estado TAMPEAR
+1_1_1001 // resetn 1, start 1, estado REALIZAR_EXTRACAO (FIM CICLO)
+1_0_0001 // resetn 1, start 0, estado IDLE
+1_1_0010 // resetn 1, start 1, estado LIGAR_MAQUINA (INICIO CICLO)
+1_1_0011 // resetn 1, start 1, estado VERIFICAR_AGUA
+1_1_0101 // resetn 1, start 1, estado MOER_CAFE
+1_1_0110 // resetn 1, start 1, estado COLOCAR_NO_FILTRO
+1_1_0111 // resetn 1, start 1, estado PASSAR_AGITADOR
+1_1_1000 // resetn 1, start 1, estado TAMPEAR
+1_1_1001 // resetn 1, start 1, estado REALIZAR_EXTRACAO (FIM CICLO)
+1_1_0001 // resetn 1, start 1, estado IDLE
+1_1_0010 // resetn 1, start 1, estado LIGAR_MAQUINA (INICIO CICLO)
+1_1_0011 // resetn 1, start 1, estado VERIFICAR_AGUA
+1_1_0101 // resetn 1, start 1, estado MOER_CAFE
+1_1_0110 // resetn 1, start 1, estado COLOCAR_NO_FILTRO
+1_1_0111 // resetn 1, start 1, estado PASSAR_AGITADOR
+1_1_1000 // resetn 1, start 1, estado TAMPEAR
+0_1_0001 // resetn 0, start 1, estado IDLE (RESET)
+1_0_0001 // resetn 1, start 0, estado IDLE
